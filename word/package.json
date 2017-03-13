@@ -1,0 +1,11 @@
+{
+  "name": "word",
+  "version": "1.0.0",
+  "description": "word.js",
+  "main": "word.js",
+  "scripts": {
+    "test": "jasmine spec/wordSpec.js"
+  },
+  "author": "Deborah Oni",
+  "license": "ISC"
+}
