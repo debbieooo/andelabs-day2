@@ -1,0 +1,11 @@
+{
+  "name": "reverse-string",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reverseString.js",
+  "scripts": {
+    "test": "jasmine spec/reverseStringSpec.js"
+  },
+  "author": "Deborah Oni",
+  "license": "ISC"
+}
