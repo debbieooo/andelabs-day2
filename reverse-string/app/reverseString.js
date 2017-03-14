@@ -12,7 +12,7 @@ function reverseString(string){
 
 
 	if (newString ===string){
-		return true;
+		//return true;
 	}
 
 	else{
