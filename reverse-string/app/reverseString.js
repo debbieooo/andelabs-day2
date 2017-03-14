@@ -4,19 +4,20 @@
 
 function reverseString(string){
 
-	var new ='';
+	var newString = '';
 
-	for (var i = sting.length -1; i>= 0; i--){
-		new += string[i];
+	for (var i = string.length -1; i >= 0; i--){
+		newString += string[i];
 	}
 
-	if (new ===string){
+
+	if (newString ===string){
 		return true;
 	}
 
 	else{
 
-		return new;
+		return newString;
 	}
 }
 
