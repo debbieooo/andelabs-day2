@@ -29,9 +29,7 @@ function words(arg){
 
 		}
 
-		////else if(typeof newArray[word] !='number'){
-			//newArray[word] = 1;
-		//}
+		
 
 		else{
 
