@@ -23,15 +23,15 @@ function words(arg){
 		word = words[i];
 
 
-		if(newArray[word] == undefined){
+		if(newArray[word] == undefined || typeof newArray[word] !='number'){
 
 			newArray[word] = 1;
 
 		}
 
-		else if(typeof newArray[word] !='number'){
-			newArray[word] = 1;
-		}
+		////else if(typeof newArray[word] !='number'){
+			//newArray[word] = 1;
+		//}
 
 		else{
 
