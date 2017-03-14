@@ -4,6 +4,10 @@
 
 function reverseString(string){
 
+	if(string ==''){
+		return null;
+	}
+
 	var newString = '';
 
 	for (var i = string.length -1; i >= 0; i--){
@@ -12,7 +16,7 @@ function reverseString(string){
 
 
 	if (newString ===string){
-		//return true;
+		return true;
 	}
 
 	else{
