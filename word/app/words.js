@@ -5,48 +5,51 @@
 //in: 1
 //come: 1
 //free: 1
+'use strict';
 
 
-
-function words(string){
-	var newString = string.replace(/\s+/g," "), words = newString.split(' '),
-	newArray ={},
-	word, i;
-
-	console.log(newString);
+function words(arg){
+	var words = arg.split(/\s+/);
+	var newArray ={};
+	var word = '';
 
 
-	for(i=0; i<words.length; i++){
+	
+
+
+	for(var i=0; i<words.length; i++){
 
 
 		word = words[i];
 
+
 		if(newArray[word] == undefined){
 
-			newArray[word]=newArray[word]||0;
-			newArray[word]++;
+			newArray[word] = 1;
 
 		}
 
-		else if(typeof newArray != 'string'){
+		else if(typeof newArray[word] !='number'){
 			newArray[word] = 1;
 		}
 
 		else{
 
-			newArray[word]=newArray[word]||0;
 
 			newArray[word]++;
 
 		}
 
 
+
 		
 	}
 
-	var json = JSON.stringify(newArray);
+	console.log(newArray);
 
-	return json;
+
+
+	return newArray;
 
 
 
